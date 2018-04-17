@@ -1,0 +1,273 @@
+2004 - SQS
+2006 - AWS launched
+2007 - 1,80,000 developers
+2010 - Amazon.com moved to aws
+2012 - First Re-invent conference
+2013 - Certifications launched.
+2014 - 100% renewable energy
+2015 - $6 billion
+2016 - $13 billion
+2017 - AI/VR Services
+
+
+AWS Platform:
+==============
+
+	AWS Global Infrastructure
+	Compute
+	Storage
+	Migration
+	Networking & CDN
+	Databases
+	Analytics 
+	Security & Identity
+	Developer Tools
+	Management Tools
+	App Services
+	Mobile Services
+	IoT
+	AR/VR
+	Media Services
+	Machine Learning
+	Customer Engagement
+	Business Productivity
+	Desktop & App Streaming
+	Game Development
+
+
+AWS Global Infrastructure:
+==========================
+
+	Region - Geographical Area
+
+	AZ - 2 or more DC
+
+	Edge Location - CDN endpoint for cloudfront for caching content
+
+
+
+10,000  Foot Overview:
+======================
+
+Compute:
+========
+	
+	EC2 - Elastic Compute Cloud
+	ECS - Elastic Container Service
+	Elastic Beanstalk - Paas Platform
+	Lightsail - Private VPS
+	Lambda - Serverless service to host code.
+	Batch - batch computing
+
+Storage:
+========
+
+	S3 - Simple Storage Service
+	EFS - Elastic File System
+	Glacier - Data Archival
+	Storage Gateway - VM's that we install. VM that replicate info to S3
+	Snowball - Import/Export Service
+
+Databases:
+==========
+
+	RDS - Relational DB
+	DynamoDB - Non Relational DB
+	Elasticcache - Way of caching commonly queried thing from DB
+	Redshift - Data Warehousing
+
+Migration:
+==========
+
+	AWS Migration Hub
+	Application Discovery Service
+	DMS
+	SMS
+	Snowball
+
+Networking & CDN:
+=================
+
+	VPC - Virtual DC (important part of 3 exams)
+	Cloudfront - CDN Service
+	Route53 - DNS Service
+	API Gateway - Serverless website using Polly
+	Direct Connect - Dedicated line between office to AWS
+
+Developer Tools:
+================
+
+	Code Star - Group of developer working together.
+	Code Commit - Way to commit your code. Source control service
+	Code Build - CI/CD Service
+	Code Deploy - Deployment Service
+	Code Pipeline - Continuous Delivery Service
+	X -Ray - Request and Debug apps
+	Cloud9 - Cloud IDE
+
+Management Tools:
+=================
+
+	Cloudwatch - Monitoring Service of AWS.
+	Cloudformation - Turn infrastructure to Code.
+	Cloudtrail - Auditing Service 
+	Config - Monitors config of AWS environments
+	OpsWorks - Chef and puppet. Automating Environments
+	Service Catalog - Maintain a catalogue for IT services
+	Secrets Manager - Managing AWS Env
+	Trusted Advisor - Advice across mutiple disciplines
+	Managed Services 
+
+Media Services:
+===============
+
+	Elastic Transcoder
+	Media Convert - File made video transcoding
+		  Live - Live Video Processing Service
+		  Package - Protects media over internet
+		  Store - Storage optimized for media
+		  Tailor - Targeted advertising
+
+Machine Learning:
+================
+	
+	SageMaker - Deep Learning
+	Comprehend - Sentiment Analysis of Data
+	DeepLens - Artifically aware camera
+	Lex - Powers Alexa Service
+	Machine Learning - Amazon.com recommended products
+	Polly - Text to speech Service
+	Rekognition - Video and Images.
+	Amazon Translate - Translate into other languages
+	Amazon Transcribe - Transcribe with captions
+
+Analytics:
+==========
+
+	Athena - Run SQL queries on S3 Buckets
+	EMR - Processing Large amounts of Data, BigData
+	Cloud Search
+	Elastic Search -
+	Kinesis - Way of ingesting large amount of data in AWS, Social Media Feed.
+	Kinesis Video Streams - Streaming Videos on Mobile
+	Quicksight - BI Service
+	Data Pipeline - Moving Data between AWS
+	Glue - ETL Service
+
+IAM:
+====
+
+	IAM
+	Cognito - Device Authentication - Temporary access for mobile services
+	Guard Duty - monitors for Malicious activity on AWS Account.
+	Inspector - Agent installed on VM and run tests against it.
+	Macie - Scan S3 buckets and look for PII
+	Ceritificate Manager - SSL Certificates for Free
+	CloudHSM - 
+	Directory Service - Integrating MS Active Directory to AWS services
+	WAF - Layer 7 Firewall (Application Layer)
+	Shield - By Default for cloudfront, Load Balancers. Helps prevent DDOS Attack.
+	Artifact- Audit and Compliance
+
+Mobile Services:
+=================
+
+	Mobile Hub  - 
+	Pinpoint - Targeted Push Notification for Mobile Users
+	App Sync - Updates data to Web and Mobile
+	Device Farm - TESTING APPS ON REAL DEVICES
+	Mobile Analytics - Analytics for Mobile
+
+
+AR/VR:
+======
+	
+	Sumerian
+
+Application Integration:
+=======================
+	
+	Step Functions
+	Amazon MQ
+	SNS
+	SQS
+	SWF
+
+Customer Engagement:
+====================
+
+	Amazon Connect
+	SES
+
+Business Productivity:
+========================
+
+	Alexa for Business
+	Chime - Video Conferencing (Google Hangouts)
+	Work Docs - Dropbox for AWS
+	Work Mail - Using Email through Amazon
+
+Desktop and App Streaming:
+==========================
+	Workspaces - VDI solution
+	AppStream 2.0
+
+IoT:
+====
+
+IoT Device Management
+Amazon FreeRTOS
+GreenGrass - Local Compute messaging
+
+Game Development:
+================
+
+GameLift
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+

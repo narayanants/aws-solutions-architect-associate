@@ -1,0 +1,19 @@
+ELB:
+====
+
+	Application Load Balancer
+
+	Classic Load Balancer
+
+	Always use DNS name for ELB
+
+	Tips:
+	====
+
+		* Instance monitored by ELB are reported as InService or OutOfService.
+		* Health checks check the instance health by talking to it.
+		* ELB have their own DNS name.
+		* Read FAQ. concentrate on classic Load Balancer.
+
+
+	

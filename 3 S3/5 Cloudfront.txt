@@ -1,0 +1,29 @@
+Cloudfront:
+============
+
+	CDN - Content Delivery Network
+
+	Terminology:
+	=============
+
+	Edge Location - CDN Enpoint for caching content
+	Origin - Origin of the file CDN is going to distribute
+	Distribution - collection of Edge Location.
+
+
+	Web Distribution - used for websites
+ 
+	RTMP - Media Streaming
+
+	Exam Tips:
+	===========
+
+
+	* Edge locations are not read only, you can write to them
+	* Objects are cached for TTL
+	* You can clear cached objects, but you are charged for it.
+	* Objects expire after TTL.
+	* 
+
+
+

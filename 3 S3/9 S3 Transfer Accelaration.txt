@@ -1,0 +1,4 @@
+S3 Transfer Accelaration:
+=========================
+	
+	* Uses cloudfront Edge locations to accelarate uploads to S3.

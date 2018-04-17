@@ -1,0 +1,11 @@
+EC2 Exam Tips:
+==============
+
+	* Termination Protection is turned off by default, you must turn it on.
+	* On an EBS-backed instance, the default action is for the root EBS volume to be deleted when the instance is terminated.
+	* Root volumes is the volume from which we are booting the OS
+	* Default AMI root volumes cannot be encrypted.
+	* Additional volumes can be encrypted.
+
+
+

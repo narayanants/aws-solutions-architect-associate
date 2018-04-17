@@ -1,0 +1,40 @@
+IAM:
+===
+
+Manage Users and Their level of access to AWS console.
+
+	* Centralized control
+	* Shared access
+	* Granular Permission
+	* Identity Federation
+	* MFA
+	* Provide Temporary access to devices and services
+	* Password Rotation Policy.
+	* PCI DSS Compliance
+
+
+Terms:
+=======
+
+	User - End User
+	Group - Collection of User under one set of permissions
+	Role - You create a role and assign them to AWS Resources
+	Policies - Document that defines one or more permission
+
+
+IAM:
+====
+
+	IAM is global.
+	IAM has sign-in link
+	Root account is the account when a AWS account is created
+	New users have no permissions
+	New users are assigned Access Key ID & Secret Access Key when first created.
+	Only get those credentials once.
+	MFA on root account
+	Create and customize own Password Rotation Policy.
+
+
+
+
+

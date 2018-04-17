@@ -1,0 +1,12 @@
+AWS CLI:
+========
+
+
+	.aws folder contains config and credentials
+	aws ec2 describe-instances
+	aws ec2 terminate-instances --instance-id i-03dasd213e12da
+
+
+
+
+

@@ -1,0 +1,33 @@
+Cross Region Replication:
+==========================
+
+ * Existing Objects are not replicated to destination buckets
+ * New Objects are only replicated.
+
+
+ CLI Tools
+ ==========
+
+ 	aws configure
+
+ 	aws s3 ls
+
+ 	aws s3 cp --recursive s3://doodlebluebucket1 s3://doodlebluebucket22
+
+ 	Once we delete the delete marker, its not replicated across.
+
+
+
+ Exam Tips:
+ ==========
+
+ 	* Versioning must be enalbed on both source and destination.
+ 	* Region must be unique.
+ 	* Existing file are not replicated. New Objects are replicated.
+ 	* Delete Markers are replicated
+ 	* Deleting Individual version or delete markers will not be replicated.
+ 	* Understand What CORS is.
+
+ 
+
+

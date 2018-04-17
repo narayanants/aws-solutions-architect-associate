@@ -1,0 +1,5 @@
+Create a static Site:
+====================
+
+
+	bucketname-s3-website-region-amazonaws.com

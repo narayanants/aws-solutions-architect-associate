@@ -1,0 +1,19 @@
+Storage Gateway:
+================
+
+	* connects on-premise  software appliance with cloud based storage to provide seamless and secure integration
+
+	Data center => AWS
+
+
+
+	Four Types:
+	============
+
+
+	File Gateway (NFS) Flat files in S3
+	Volume Gateway (iSCSI)
+		Stored Volumes
+		Cached Volumes
+	Tape Gateway (VTL)
+

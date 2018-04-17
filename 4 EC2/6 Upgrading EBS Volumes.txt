@@ -1,0 +1,17 @@
+Upgrading EBS Volumes:
+=====================
+
+
+	* GP2
+	* IO1
+	* ST1
+	* SC1
+	* Magnetic
+
+
+	* Snapshots are point in time copies of Volumes.
+	* Snapshots are incrementals. Blocks changed are only moved to S3.
+	* Snapshots of encrypted volumes are also encrypted.
+	* Volumes restored from encrypted Snapshots are also encrypted
+	* You can share snapshots, but only when are unencrypted.
+

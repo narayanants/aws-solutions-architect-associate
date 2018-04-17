@@ -1,0 +1,79 @@
+EC2 101 Part 2:
+===============
+
+EBS:
+====
+
+	* Virtual disk attached to EC2.
+	* EBS are placed in specific availability zones,where they are automatically replicated to protect you from failure.
+
+EBS Volume Types:
+=================
+
+	General Purpose SSD (GP2)
+		- Balance price and performance
+		- 3 IOPS/GB upto 10,000 IOPS and burst upto 3000 IOPS
+
+	Provisioned IOPS (SSD) (IO1)
+		- I/O Intensive Apps
+		- For NoSQL Databases.
+		- Use if more the 10,000 IOPS
+		- upto 20,000 IOPS
+
+	Thoughtput optimized (ST1)
+		- Big Data
+		- Data Warehousing
+		- Log Processing
+		- Cannot be Boot Volumes
+
+	Cold HDD (SC1)
+		- Lowest cost storage for infrequently accessed workloads.
+		- File Server
+		- Cannot be a boot volume.
+
+	Magentic (Standard)
+		- Lowest cost per gig
+		- Bootable
+		- Data is accessed infrequently.
+
+
+	Launch an EC2 instance
+	Security Groups Basics
+	Volumes and Snapshots
+	AMI
+	Load Balancers and Health Check
+	Cloudwatch
+	AWS Command Line
+	IAM Roles with Ec2
+	Bootstrap Scripts
+	Launch Configuration groups
+	Auto Scaling 101
+	Elastic File System (Shared Storage)
+	Lambda
+
+Exam Tips:
+==========
+	
+	* GP2 - 10,000 IOPS
+	* IO1 - 20,000 IOPS
+	* ST1 - frequently accessed workloads
+	* SC1 - less frequently accessed workloads
+	* Magentic - bootable, infrequently accessed workloads.
+
+
+	* You cannot mount one EBS volume to multiple Ec2 instances instead using EFS
+	* Dr Mc GIFT PX
+	
+
+
+
+
+
+
+
+
+
+
+
+
+

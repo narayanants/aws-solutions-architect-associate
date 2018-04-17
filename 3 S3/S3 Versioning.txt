@@ -1,0 +1,9 @@
+S3 Versioning:
+=============
+
+	* We cannot disable versioning once it is enabled.
+	* Stores all versions of Objects
+	* Great backup tool
+	* once enabled, cannot be disabled.
+	* Integrates with lifecycle rules
+	* Versioning MFA Delete capability, additional layer of security

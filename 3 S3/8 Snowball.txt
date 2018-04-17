@@ -1,0 +1,26 @@
+Snowball:
+=========
+
+	* Import/Export Service
+	* Onboard storage
+	* Petabyte scale data transfer solution
+
+Snowball Edge:
+==============
+
+	100TB of data
+	Onboard storage and compute capacity
+
+Snowmobile:
+===========
+
+	Exabyte scale (100 Petabyte scale)
+	Import/Export to/from S3
+
+
+Lab:
+====
+	
+	
+	
+

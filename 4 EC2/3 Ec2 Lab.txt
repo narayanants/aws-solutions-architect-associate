@@ -1,0 +1,5 @@
+ssh ec2-user@52.221.205.37 -i SingaporeKey.pem
+
+	yum update -y
+	service httpd start
+
