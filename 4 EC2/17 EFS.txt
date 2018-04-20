@@ -1,0 +1,9 @@
+Elastc File system:
+====================
+
+    * File storage service for Ec2.
+    * NFS v4 Protocol
+    * Pay for storage you use.
+    * Data is stored across multiple AZ within a region.
+    * Block based Storage.
+    * 
