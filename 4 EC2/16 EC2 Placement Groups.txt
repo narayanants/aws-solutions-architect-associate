@@ -1,0 +1,15 @@
+EC2 Placement Groups:
+=====================
+	
+	* A Placement group is a logical grouping of instances with a single AZ.
+	* Participate in low latency. 10 Gpbs network.
+	* Cassandra, Hadoop.
+
+
+	* Can't span multiple AZ
+	* Name of the Placement group must be unique with AWS Account.
+	* Only certain type of instances can be launched in placement group.
+	* Instance of the same size and family.
+	* Can merge placement group
+	* Can't move existing instances into placement group
+	
