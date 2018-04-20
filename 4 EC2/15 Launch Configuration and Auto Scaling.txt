@@ -1,0 +1,5 @@
+Launch Configuration and Auto Scaling:
+=====================================
+
+	Create Launch Configuration
+	Use Auto Scaling Groups to launch Multiple Instances based on requirement.
