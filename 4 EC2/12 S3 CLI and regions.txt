@@ -1,0 +1,4 @@
+S3 CLI and Regions:
+===================
+
+	* aws s3 cp --recursive s3://acloudguru-ap-south-1 /home/user --region ap-south-1
