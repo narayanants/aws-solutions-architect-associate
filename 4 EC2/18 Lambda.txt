@@ -1,0 +1,31 @@
+Lambda:
+=======
+
+
+ * AWS events driven compute source.
+
+    C#
+    Python
+    Node.js
+    Java
+    Go
+
+    Pricing:
+    ========
+
+    No of Requests
+    Duration
+    No Servers
+    Continuos Scaling
+    Super Super Super Cheap
+
+    Lambda Functions are independent
+    Lambda is Serverless
+    Know what services are Serverless
+    Lambda Functions can trigger other Lambda Functions
+    
+    Architecture can get extemely complicated, AWS-xRay allows you to debug whats happening
+
+    Lambda can do things globally, you can use it to back up S3 buckets.
+    Know your triggers
+    
