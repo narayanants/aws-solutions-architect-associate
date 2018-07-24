@@ -54,6 +54,7 @@ Compute:
 	
 	EC2 - Elastic Compute Cloud
 	ECS - Elastic Container Service
+	EKS - Elastic Kuburnetes Service
 	Elastic Beanstalk - Paas Platform
 	Lightsail - Private VPS
 	Lambda - Serverless service to host code.
@@ -114,9 +115,10 @@ Management Tools:
 	Config - Monitors config of AWS environments
 	OpsWorks - Chef and puppet. Automating Environments
 	Service Catalog - Maintain a catalogue for IT services
+	Systems Manager - Managing your AWS Environments
 	Secrets Manager - Managing AWS Env
 	Trusted Advisor - Advice across mutiple disciplines
-	Managed Services 
+	Managed Services - 
 
 Media Services:
 ===============
@@ -133,7 +135,7 @@ Machine Learning:
 	
 	SageMaker - Deep Learning
 	Comprehend - Sentiment Analysis of Data
-	DeepLens - Artifically aware camera
+	DeepLens - Artificially aware camera
 	Lex - Powers Alexa Service
 	Machine Learning - Amazon.com recommended products
 	Polly - Text to speech Service
@@ -162,7 +164,7 @@ IAM:
 	Guard Duty - monitors for Malicious activity on AWS Account.
 	Inspector - Agent installed on VM and run tests against it.
 	Macie - Scan S3 buckets and look for PII
-	Ceritificate Manager - SSL Certificates for Free
+	Certificate Manager - SSL Certificates for Free
 	CloudHSM - 
 	Directory Service - Integrating MS Active Directory to AWS services
 	WAF - Layer 7 Firewall (Application Layer)
@@ -196,7 +198,7 @@ Application Integration:
 Customer Engagement:
 ====================
 
-	Amazon Connect
+	Amazon Connect - Call center in the cloud
 	SES
 
 Business Productivity:
