@@ -1,0 +1,191 @@
+2003 - Chris Pinkman and Benjamin Black developed it as a service.
+2004 - SQS
+2006 - AWS officially launched
+2007 - 1,80,000 Devs
+2010 - Amazon.com moved to AWS
+2012 - First Re-invent conference.
+2013 - Cerifications launched.
+2014 - 100 % renewable energy
+2015- $6 billion revenue.
+2016 - $13 billion
+2017 - AI and VR services.
+
+
+16 Regions and 44 AZ
+
+
+Services:
+=========
+
+Compute:
+--------
+
+	* EC2
+	* ECS
+	* Lambda
+	* Elastic Beanstalk
+	* Lightsail
+	* Batch
+
+Storage:
+--------
+
+	S3 - Object Storage
+	EFS - Block Storage
+	Glacier - Data Archival
+	Snowball - Import/Export service.
+	Storage Gateway - On Premise to Cloud.
+
+Databases:
+-----------
+
+	RDS - MySQL,MSSQL, Aurora, PostgreSQL
+	DynamoDB - NoSQL DB
+	ElasticCache - Caching commonly queried content
+	Redshift - Data Warehousing.
+
+Migration:
+----------
+
+	AWS Migration Hub
+	App Discovery Service
+	DMS
+	SMS
+	Snowball
+
+Networking & CDN:
+=================
+
+	VPC
+	Cloudfront
+	Route53
+	API Gateway
+	Direct Connect - Dedicated line from on premise to AWS
+
+Developer Tools:
+----------------
+
+	Code Star - Project managing your code. collab with other devs
+	Code Commit - Way to store code . VC service.
+	Code Build -  
+	Code Deploy -
+	Code Pipeline  - CI Service
+	X-Ray - Debug and analyze Serverless Apps
+	Cloud9 - Cloud IDE
+
+Management Tools:
+-----------------
+
+	CloudWatch - Monitoring service (Sysops Cert)
+	CloudFormation - Infrastructure as a code.
+	CloudTrail - Auditing
+	Config - Monitor config of AWS Env. Point in time snapshots
+	Opsworks - Chef and Puppet . Automating our environment.
+	Service Catalog - Manage Catalogue of services.
+	Systems Manager - Manage AWS resources typically used for EC2 service.
+	Trusted Advisor - Advice across multiple disciplines.
+	Managed Services 
+
+
+Analytics:
+===========
+	
+	* Athena - Run SQL queries on S3.
+	* EMR - Elastic Map Reduce.
+	* CloudSearch - 
+	* Elastic Search - Search servies (Open source)
+	* Kinesis - Ingesting large amount of data into AWS.
+	* Kinesis Video Streams
+	* Quicksight - BI tool
+	* Data Pipeline - moving data inside AWS.
+	* Glue  - ETL 
+
+ Part 4 :
+ ========
+
+ 	Security & Identity:
+ 	====================
+
+ 	* IAM
+ 	* Cognito - Device Authentication.
+ 	* Guard Duty - 
+ 	* Inspector - Install this agent in VM.
+ 	* Macie - Scan S3 buckets for personally identifiable information.
+ 	* Certificate Manager - SSL Certificate for Free
+ 	* CloudHSM - Dedicated bits of hardware to store your keys.
+ 	* Directory Service - Microsoft Active Directory
+ 	* WAF - Application level Firewall
+ 	* Shield - Prevent DDoS attacks
+ 	* Artifact - Audit and compliance.
+
+ Mobile Services:
+ -----------------
+
+ 	* Mobile Hub
+ 	* Pinpoint - targeted push notifications
+ 	* AWS AppsSync - Updates mobile data to AWS
+ 	* Device Farm - Testing apps on real devices.
+ 	* Mobile Analytics
+
+ AR/VR:
+ -----
+
+ 	* Sumerian
+
+ Application Integration:
+ ========================
+
+ 	* Step Functions
+ 	* Amazon MQ
+ 	* SNS
+ 	* SQS
+ 	* SWF
+
+Customer Engagement:
+====================
+
+	* Connect
+	* SES
+
+Business Productivity:
+======================
+
+	* Alexa for Business
+	* Chime
+	* WorkDocs - Dropbox in AWS
+	* WorkMail 
+
+Desktop and App Streaming:
+--------------------------
+
+	* Workspaces - VDI solution
+	* AppStream 2.0 - Streaming apps in the cloud
+
+IoT:
+-----
+
+	* IOT
+	* IoT Device Management
+	* AMazon FreeRTOS
+	* Greengrass
+	* Gamelift
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
