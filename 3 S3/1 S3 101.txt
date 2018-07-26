@@ -15,7 +15,8 @@ S3 101:
 * File are stored in Buckets ( Just a Folder)
 * S3 is a universal namespace
 * DNS Address when u create a bucket.
-* When u upload a file, status code is response.
+* Buckets name must be unique globally.
+* When you upload a file, status code 200 is given as response.
 
 
 Data Consistency Models for S3:
@@ -45,34 +46,37 @@ S3 is a simple K:V pair
 	===============
 
 	* S3 - 99.99% availability, 99.999999999% durability stored reduantly across multiple devices and mutiple facilities.
-
 	* S3 -IA (Infrequently Accessed) - Data accessed less frequently. Lower Fee than S3 but charged retrival fee.
-
+	* S3 One Zone IA - Stored only in One Availability Zone.
 	* Reduced Redundancy Storage - Same Availability, 99.99 % durability.
-
 	* Glacier - very cheap. Data Archival. 3-5hrs to restore.
-
 
 Glacier:
 =========
 
 	* Low Cost Data Archival Storage
+	* Expedidited
+	* Standard - takes 3-5 hours
+	* Bulk
+
+	S3 Transfer Accelaration:
+	=========================
+
+	* Fast, easy and secure way to transfer files over long distances between your end users and S3 bucket.
+	* Takes advantange of Amazon's Cloudfront CDN.
+
+
 
 Encryption:
 ============
 
-	Client Side
-	Server side
+	* Client Side
+	* Server side
 		using SSE -S3
 		using SSE - KMS
 		SSE - Customer Provided Keys
-	Control access to buckets using Bucket Policies and Bucket ACL
-	By Default S3 buckets are private and all objects stored inside it are private.
-
-
-
-
-
+	* Control access to buckets using Bucket Policies and Bucket ACL
+	* By Default S3 buckets are private and all objects stored inside it are private.
 
 Charges:
 =========
