@@ -1,0 +1,6 @@
+Create a Bucket:
+=================
+
+* S3 is global.
+* S3 bucket name must be unique.
+* 
