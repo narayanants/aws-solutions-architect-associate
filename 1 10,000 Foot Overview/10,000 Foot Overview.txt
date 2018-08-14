@@ -189,11 +189,11 @@ AR/VR:
 Application Integration:
 =======================
 	
-	Step Functions
-	Amazon MQ
-	SNS
+	Step Functions - Managing Lambda functions
+	Amazon MQ - Message Queues
+	SNS - 
 	SQS
-	SWF
+	SWF - Amazon use this in their Warehouses.
 
 Customer Engagement:
 ====================
