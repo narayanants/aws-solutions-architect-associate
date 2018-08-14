@@ -133,7 +133,7 @@ Media Services:
 Machine Learning:
 ================
 	
-	SageMaker - Deep Learning
+	SageMaker - Deep Learning (Neural Networks)
 	Comprehend - Sentiment Analysis of Data
 	DeepLens - Artificially aware camera
 	Lex - Powers Alexa Service
