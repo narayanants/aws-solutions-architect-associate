@@ -7,7 +7,7 @@ Cloudfront:
 	=============
 
 	Edge Location - CDN Enpoint for caching content
-	Origin - Origin of the file CDN is going to distribute
+	Origin - Origin of the file CDN is going to distribute (EC2, S3, ELB Route53)
 	Distribution - collection of Edge Location.
 
 
