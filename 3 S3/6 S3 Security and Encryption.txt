@@ -6,7 +6,7 @@ S3 Security and Encryption:
 
 		Bucket Policies
 		ACL
-	* Configure d to create access logs
+	* Configured to create access logs
 
 Encryption:
 ============
