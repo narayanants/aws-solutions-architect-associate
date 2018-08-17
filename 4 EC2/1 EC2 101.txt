@@ -60,20 +60,21 @@ Instance Types:
 	F1 - Field programmable gate array - Hardaware accelaration for your code.
 	T2 - Low cost general purpose - Web servers, small DB's
 	P2 - graphics/General purpose GPU - Machine Learning, Bitcoin Mining
-	X1 - Memnory Optimized -SAP HANA, Apache Spark etc.
+	X1 - Memory Optimized -SAP HANA, Apache Spark etc.
 
-	DR Mc GIFT PX
+	FIGHT DR MCPX
 
-	D2
-	R4
-	M4
-	C4
-	G2
-	I2
-	F1
-	T2
-	P2
-	X1
+	F - Field programmable gate array
+	I - IOPS
+	G - Graphics
+	H - High Disk Throughput
+	T - Cheap General Purpose
+	D - Density
+	R - RAM
+	M - General Purpose Apps
+	C - Compute Optimized
+	P - Graphics
+	X - Extreme Memory
 
 
 
