@@ -11,9 +11,28 @@ Storage Gateway:
 	============
 
 
-	File Gateway (NFS) Flat files in S3
-	Volume Gateway (iSCSI)
+	File Gateway (NFS) Object Based Storage
+	Volume Gateway (iSCSI) 
+	
+		* Block Based Storage
+		* On Premise volumes backed up as AWS EBS snapshots
+		* snapshots are incremental.
 		Stored Volumes
 		Cached Volumes
 	Tape Gateway (VTL)
+
+
+	Exam Tips:
+	----------
+
+	File Gateway - For flat files, stored directly in S3.
+	Volume Gateway:
+		Stored volumes:
+			- Entire dataset is stored on site and is asynchronously backed up to S3.
+		Cached volumes:
+			- Entire dataset is stored on S3 and the most frequently accessed data is cached on site.
+	Gateway Tape Library:
+			- Used for backup and uses popularly backup applications like NetBackup,Backup exec, Veeam etc.
+
+	
 
