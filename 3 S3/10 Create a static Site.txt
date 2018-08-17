@@ -3,3 +3,9 @@ Create a static Site:
 
 
 	bucketname-s3-website-region-amazonaws.com
+
+	Example:
+	--------
+	
+	anawsguru-s3-website-ap-south-1.amazonaws.com
+	Domain name must be exact as the S3 bucket name
