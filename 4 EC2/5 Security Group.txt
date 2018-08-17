@@ -4,9 +4,9 @@ Security Group:
 	* SG is a virtual firewall.
 	* Controls traffic to instance.
 	* 1 instance can have multiple security groups.
-	* Any Rule applied to Securit Group are applied immediately.
+	* Any Rule applied to Security Group are applied immediately.
 	* Security Groups are stateful.
-	* Deny Traffic to VM.
+	* Cannot Deny Traffic to VM.
 	* All Inbound traffic are blocked by default.
 	* All outbound traffic are allowed.
 	* Security Group are stateful and ACL are stateless.
