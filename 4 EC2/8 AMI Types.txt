@@ -1,2 +1,11 @@
 AMI Types:
 ===========
+
+You can select your AMI based on 
+
+    * Region
+    * OS
+    * Architecture
+    * Launch Permissions
+    * Storage for the Root Device
+    
