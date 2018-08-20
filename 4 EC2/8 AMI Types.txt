@@ -8,4 +8,9 @@ You can select your AMI based on
     * Architecture
     * Launch Permissions
     * Storage for the Root Device
-    
+
+
+Instance Store:
+
+    Cannot be start/stop
+    EBS instances can be started/stopped
