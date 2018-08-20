@@ -1,2 +1,4 @@
 Encrypt Root volumes and snapshots:
 ==================================
+
+* Stop the instances before taking a snapshots.
