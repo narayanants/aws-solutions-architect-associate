@@ -1,0 +1,5 @@
+Building a serverless website:
+==============================
+
+* Create a bucket named helpmestudyawspolly.
+* Create a Domain name with the same in Route 53
