@@ -9,7 +9,7 @@ Security Group:
 	* Cannot Deny Traffic to VM.
 	* All Inbound traffic are blocked by default.
 	* All outbound traffic are allowed.
-	* Security Group are stateful and ACL are stateless.
+	* Security Group are stateful and NACL are stateless.
 	* Cannot block specific IP address using security groups.
 	* Instead use Network ACL.
 	
