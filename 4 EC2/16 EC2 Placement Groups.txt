@@ -1,6 +1,13 @@
 EC2 Placement Groups:
 =====================
 	
+	
+	Clustered Placement Groups
+	Spread Placement Groups
+	
+	Clustered Placement Group:
+	==========================
+	
 	* A Placement group is a logical grouping of instances with a single AZ.
 	* Participate in low latency. 10 Gpbs network.
 	* Cassandra, Hadoop.
