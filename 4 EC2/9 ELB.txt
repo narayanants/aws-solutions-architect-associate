@@ -1,11 +1,19 @@
 ELB:
 ====
 
-	Application Load Balancer
+	Application Load Balancer - HTTP and HTTPS Traffic OSI level 7
 
-	Classic Load Balancer
+	Network Load Balancer - Load Balancing  of TCP traffic (Layer 4)
+
+	Classic Load Balancer - ELB - HTTP and HTTPS Traffic, Layer 7
 
 	Always use DNS name for ELB
+
+
+	Load Balancing Error:
+
+	504 - Gateway timeout Error
+
 
 	Tips:
 	====
@@ -17,3 +25,6 @@ ELB:
 
 
 	
+
+	x-Forwarded-Error -> Gives the public IP Address
+
