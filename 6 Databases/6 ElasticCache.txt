@@ -1,0 +1,23 @@
+ElasticCache:
+==============
+
+    * In-memory storage in the cloud.
+    * Master/Slave replication and Multi-AZ which can used to achieve cross AZ redudancy.
+
+Engines:
+========
+
+    Memcached
+    Redis - in memory Key-value storage
+
+    * Significantly improve latency and throughput for many read-heavy application workloads.
+    * Caching improves applications performance by storing critical pieces of data in-memory for low latency access.
+    * 
+
+    Stress Test:
+    ===========
+
+    * ElasticCache is a good choice if its read heavy and not prone to frequent changing.
+    * Redshift is a good answer if the reason your database if feeling stress if because the management keep running OLAP transactions on it etc.
+    
+
