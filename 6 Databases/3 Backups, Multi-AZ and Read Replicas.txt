@@ -1,0 +1,76 @@
+Backups, Multi-AZ and Read Replicas:
+====================================
+
+    * 2 types of Backups
+
+        Automated
+        Database snapshots
+
+    Automated Backups:
+    ==================
+
+        * Allow you to recover database to any point in time within a retention period.
+        * Retention period can be between 0 to 35 days.
+        * Automated Backups take a daily full snapshot and will store transaction logs throughtout the day.
+        * When you do a recovery, AWS will choose the most recent daily snapshot and apply those transaction logs relevant to that day.
+        * This allows to do a point-in-time recovery down to a second,within the retention period.
+
+        * Automated Backups are enabled by default.
+        * Backups are stored in S3.
+        * Free storage equal to the size of the database.
+        * During backup, some elevated latency may be experienced.
+
+
+    Snapshots:
+    ==========
+
+        * DB snapshots are done manually.
+        * They are stored even after you delete the original RDS instance.
+
+        Restore:
+        --------
+        * When we Restore an Automated Backups or DB snapshot, the restored version of the database in a new RDS instance. with a new DNS endpoint.
+
+
+    Encryption:
+    ===========
+    
+    * Encryption is done using KMS
+    * Once the DB is encrypted the data stored at rest is automatically encrypted.
+    * Encrypting an existing DB is not supported.
+    * To use an RDS encryption for an existing database, create a snapshot and copy it and encrypt it.
+
+
+    Multi AZ:
+    =========
+    
+    * Synchronously replicated to another AZ.
+    * For DR only.
+    * Allows you to have an exact of the production database in another AZ.
+    * AWS handles the replication for you.
+    * Production database is written to, that write will be automatically synchronized to the DR DB.
+    * Multi-AZ is for DR only.
+    * Not used to improve performance.
+    * For that,use Read Replicas.
+
+
+    Read Replicas:
+    ===============
+
+    * 5 Read Replicas for production database.
+    * Read Replicas of Read Replicas
+    * Read only copy of your production database.
+    * Async replication from the primary RDS instance to the read replica.
+    * Use read replicas for very read-heavy database workloads.
+    * Use for scaling.
+    * Must have automatic backups turned on to deploy a read replica.
+    * 5 read replicas of any database.
+    * Each read replica will have its own DNS endpoint.
+    * Read replicas with multi-AZ possible.
+    * You can create read replicas of Multi-AZ databases.
+    * Read replicas can be promoted to their own databases.
+    * Read replica in another region is also possible.
+    
+
+
+
