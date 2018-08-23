@@ -1,0 +1,26 @@
+DynamoDB:
+========
+
+    * Fast and flexible NoSQL database.
+    * document and key value data models.
+    * Mobile
+    
+Facts:
+======
+    * Always stored on SSD storage.
+    * Spread across 3 geogrpahically distinct data centre.
+    * Eventual consistent reads - consistency reached within a second. Best read performance
+    * Strongly consistent reads. - Result that reflect a successful response prior to that read.
+
+
+    Pricing:
+    ========
+
+    Provision throughput capacity.
+
+    Write throughput - per hour for 10 units
+    Read throughput - per hour for 50 units.
+
+    Push button scaling
+
+    
