@@ -1,0 +1,45 @@
+Redshift:
+==========
+
+* Fast,powerful,petabyte scale data warehousing service in the cloud.
+* Its about columns.
+Different type of architecure.
+
+
+Redshift Configuration:
+========================
+
+Single Node (160GB)
+
+Multi-Node:
+-----------
+
+    * Leader-Node ( manages client connections and receives queries)
+    * Compute Node (Store data and perform queries and computations)
+    * upto 128 compute nodes.
+
+Redshift- 10 times faster:
+===========================
+
+    * Redshift organized data by columns.
+    * Data warehousing and analytics.
+    * Far fewer IO, enhances query performance.
+
+Advanced compression:
+=====================
+
+Massive Parallel Processing:
+============================
+
+Pricing:
+=========
+
+    * Compute Node Hours
+
+Availability:
+===============
+
+    * Currently available on 1 AZ.
+    * Can restore snapshots to a new AZ in the event of an outage.
+    
+
