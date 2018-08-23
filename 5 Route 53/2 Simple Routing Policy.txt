@@ -1,0 +1,25 @@
+Simple Routing Policy:
+========================
+
+
+Route53 Routing Policies:
+==========================
+
+    * Simple 
+    * Weighted
+    * Latency
+    * Failover
+    * Geolocation
+
+    Simple Routing Policy:
+    =======================
+
+    One Webserver serves content for acloud.guru
+
+
+    User -> Route53 -> EC2 instance in particular Region
+
+    Naked Domain Name
+
+    Type is an A Record
+    
