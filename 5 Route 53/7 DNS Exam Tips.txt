@@ -1,0 +1,15 @@
+DNS Exam Tips:
+===============
+
+* ELB doesn't have an IP Address, use DNS name instead.
+* Alias Record and CNAME
+
+Different Routing Policies:
+============================
+
+    Simple
+    Weighted
+    Latency
+    Failover
+    Geolocation
+    
