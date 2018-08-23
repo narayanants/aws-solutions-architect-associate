@@ -1,0 +1,5 @@
+Geolocation Routing Policy:
+===========================
+
+    * Direct traffic based on the end user geographical location
+    
