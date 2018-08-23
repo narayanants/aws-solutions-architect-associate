@@ -1,0 +1,13 @@
+Failover Routing Policies:
+==========================
+
+    * Active/Passive Site
+    * Primary/DR Site
+    * Configure health check and if it fails send traffic to Passive site. 
+    
+    Route53 will monitor the health of the primary site using a health check.
+
+    A Health check monitors the health of your endpoints
+
+    Primary - Main Site
+    Secondary - DR Site
