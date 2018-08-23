@@ -1,0 +1,94 @@
+DNS 101:
+=========
+
+    * Phone Book
+    * Human friendly domain names to IP addresses.
+    * IPv4 and IPv6
+
+    IPv4 - 32 bit field and has over 4 billion addresses.
+
+    IPv6 - depletion issue of IPv4
+            128 bits
+    
+    Top Level Domain:
+    ================
+
+    .com
+    .edu
+    .gov
+
+    .co.uk
+    .gov.uk
+
+
+    Domain Registrars
+    =================
+
+    * A Registrar is an authority that can assign domain names directly under one or more top-level domains.
+
+
+    SOA Records:
+    ============
+
+    Start of Authority Records
+
+    name of the server that supplied the data for the zone.
+    admin of the zone
+    current version of the data file.
+
+    NS Records:
+    ===========
+
+    Nameserver Records
+    Direct traffic to DNS server
+
+
+    A Records:
+    ===========
+
+    A record stands for Address.
+    Translate name of the domain to the IP Address.
+
+
+    TTL:
+    =====
+
+    * The length that a DNS record is cached on the Resolving Server or the users own local PC to the value of Time-to-live in seconds.
+    * The lower the TTL, the faster the DNS records changes to propogate throughout the internet.
+
+
+    CNAMES:
+    =======
+
+    Moves one domain name to another.
+    Canonical name
+    http://m.acloud.guru 
+    http://mobile.acloud.guru
+
+
+    Alias Records:
+    ==============
+
+    Created by Amazon
+    Similar to CNAMES
+    Map one DNS name to another
+
+    A CNAME can't be used for naked Domain names.
+    Naked domain name must always be a A Record.
+    http://acloud.guru must either be A record or an Alias.
+
+    Exam Tips:
+    ==========
+
+
+    ELB don't have a predefined IPv4 Address
+    ELB have only DNS name/endpoint.
+
+    Understand the difference between CNAME and Alias Record.
+
+    Alias Record allows you to resolve a naked domain name to a an ELB DNS Address.
+
+    Always choose Alias Record over CNAME.
+
+    
+
