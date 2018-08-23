@@ -1,0 +1,21 @@
+
+Aurora:
+======
+
+* Starts in 10 GB, scales in 10GB increments to 64TB. (Storage Autoscaling)
+* Compute resource can scale upto 32 vCPU and 244 GB of RAM.
+* Maintains 2 copies of DB in 3 AZ. 6 copies of data.
+* Loss of 3 copies of data.
+* Aurora storage is self-healing.
+
+
+Replicas:
+========
+
+    * Aurora Replicas (currently 15) - Automatically Failover for Read Replica
+    * MySQL Read Replicas (Current 5) - Not supported.
+
+
+
+
+
