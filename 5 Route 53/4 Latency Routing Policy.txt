@@ -1,0 +1,7 @@
+Latency Routing Policy:
+=======================
+
+    * Lowest Network Latency for the end user.
+    * Latency Resource Record set
+
+    
