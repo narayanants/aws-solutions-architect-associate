@@ -1,0 +1,4 @@
+Create our RDS Instance:
+========================
+
+* Open port 3306 for MySQL
