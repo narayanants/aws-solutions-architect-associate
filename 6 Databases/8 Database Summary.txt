@@ -1,0 +1,50 @@
+Database Summary:
+=================
+
+    * RDS - OLTP
+    * DynamoDB - NoSQL
+    * Redshift
+    * ElasticCache - In Memory caching (Memcached,Redis)
+
+Multi-AZ:
+=========
+
+Read Replica:
+============
+
+
+Aurora Scaling:
+===============
+
+    * 2 copies of your data in each availability zone with a minimum of 3 availability zones.
+    * 6 copies of your data.
+    * Designed to handle loss of upto to copies of data without affecting database writes.
+    * 3 copies without affecting read availability.
+
+
+    Aurora Replicas (15)
+    MySQL Read Replica (5)
+
+DynamoDB:
+========
+    * Push button Scaling
+    * SSD Storage
+    * Spread across 3 geographically distinct data centre.
+    * Eventual Consistency Reads (Default)
+    * Strongly Consistenct Reads 
+
+
+Redshift:
+==========
+
+    * Single Node (160GB)
+    * Multi-Node - Leader Node, Compute Nodes (128)
+
+ElasticCache:
+===========
+
+    In-memory cache in the cloud
+    Memcached
+    Redis
+
+
