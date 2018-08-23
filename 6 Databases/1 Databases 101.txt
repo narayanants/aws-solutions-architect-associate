@@ -1,0 +1,63 @@
+Databases 101:
+==============
+
+* Relational Types
+
+    * SQL Server
+    * Oracle
+    * MySQL
+    * Postgresql
+    * Aurora
+    * MariaDB
+
+    Non-Relational Databases
+    =========================
+
+    Databases
+    Collection - Table
+    Document - Row
+    K:V Pairs
+
+    DynamoDB
+
+
+    Data Warehousing:
+    =================
+
+    Business Intelligence
+
+
+    OLTP vs OLAP:
+    =============
+
+    Online Transaction Processing
+
+    Online Analytics Processing
+
+    Data Warehousing Databases use different type of architecture both from a datababase perspective and infrastructure layer.
+
+    ElasticCache:
+    ==============
+
+    * Web service to deploy,operate and scale an in-memory cache in the cloud.
+    * ElasticCache supports two types of open-source in-memory cache engines:
+
+        * Memcached
+        * Redis
+
+    * Improves performance of web application by allowing you to retrieve information from fast,managed, in-memory caches, instead of relying on disk-based databases.
+
+    Summary:
+    ========
+
+    * RDS - OLTP
+    * DynamoDB - NoSQL DB
+    * Redshift - Data Warehousing
+    * ElasticCache
+    
+
+
+
+
+
+
