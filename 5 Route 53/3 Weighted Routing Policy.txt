@@ -1,0 +1,7 @@
+Weighted Routing Policy:
+========================
+
+    * Percentage Based
+    * Splits traffic based on different weights.
+
+
