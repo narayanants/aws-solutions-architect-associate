@@ -1,0 +1,29 @@
+Network Address Translations:
+=============================
+
+    * NAT Gateway operate on IPv4
+    * Egress Only Internet Gateway  operate on IPV6.
+    * NAT Gateway in each AZ.
+    * NAT Gateway don't sit inside a Security Group
+    * NAT Instance sit inside a Security Group.
+
+
+Exam Tips:
+=========
+
+    * When creating a NAT instance, disable source/destination check on the instance.
+    * NAT instaces must be in a public subnet.
+    * There must a route out of the private subnet to the NAT instance.
+    * Amount of traffic it can support depends on the size of the instance.
+    * If you are bottlenecking, increase the instance size.
+    * HA using Autoscaling Groups,multiple subnets in different AZ, and a script to automate failover.
+
+NAT Gateway:
+============
+
+    * Preferred by enterprise.
+    * Scale automatically upto 100GBPS.
+    * No need to patch.
+    * Not associcated with SG.
+    * automatically assigned a public IP address.
+    
