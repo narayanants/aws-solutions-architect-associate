@@ -35,6 +35,16 @@ Pricing:
 =========
 
     * Compute Node Hours
+    * Backup and Data Transfer
+
+
+Security:
+==========
+
+    * Encrypted in transit using SSL.
+    * Encrypted at Rest AES-256 encryption
+    * By default,Redshift takes care of key management.
+    * AWS KMS
 
 Availability:
 ===============
