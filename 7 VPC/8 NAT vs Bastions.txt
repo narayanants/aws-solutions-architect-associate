@@ -1,0 +1,13 @@
+NAT vs Bastions:
+=================
+
+    * Bastions are used for administration only.
+    * NAT Gateway are now used in Enterprise.
+    
+
+Exam Tips:
+==========
+
+    * NAT instance is to provide internet access to private subnets.
+    * Bastion is used to securely administer EC2 instances(using SSH or RDP) in private subnets. Jumpboxes in Austraila.
+    * 
