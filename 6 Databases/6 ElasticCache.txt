@@ -7,7 +7,7 @@ ElasticCache:
 Engines:
 ========
 
-    Memcached
+    Memcached - Memory object caching system.
     Redis - in memory Key-value storage
 
     * Significantly improve latency and throughput for many read-heavy application workloads.
@@ -17,7 +17,7 @@ Engines:
     Stress Test:
     ===========
 
-    * ElasticCache is a good choice if its read heavy and not prone to frequent changing.
+    * ElasticCache is a good choice if database is read heavy and not prone to frequent changing.
     * Redshift is a good answer if the reason your database if feeling stress if because the management keep running OLAP transactions on it etc.
     
 
