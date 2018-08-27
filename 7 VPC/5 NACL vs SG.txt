@@ -1,0 +1,31 @@
+NACL vs SG:
+===========
+
+* NACL is subnet level
+* SG is instance level
+
+* NACL is stateless
+* SG is stateful
+
+* In default Network ACL, all inbound and outbound traffic is allowed by default.
+* Custom Network ACL, all inbound and outbound traffic is blocked.
+
+* 1 Subnet can be associated with 1 AZ and 1 NACL.
+* By default, all inbound and outbound traffic is denied by default for custom NACL.
+* Order of the Rule matters in NACL.
+
+Exam Tips:
+==========
+
+* VPC comes with default NACL and by default it allows all outbound and inbound rules.
+* Custom NACL, denies inbound and outbound rules until you add rules.
+* Each subnet must be associated with a NACL, else subnet is associated to the default NACL.
+* Associate NACL with multiple subnets. but 1 subnet can be associated with 1 NACL at a time.
+* When you associate a NACL with a subnet, previous assocation is removed.
+* NACL contains numbered list of rules and are evaluated in order they are created, lowest number rule first.
+* NACL have separate inbound and outbound rules.
+* NACL are stateless.
+
+
+Block IP Address using NACL's not SG.
+
