@@ -1,0 +1,13 @@
+Build your custom VPC Part1:
+============================
+
+    * When we create a custom VPC, it will create a 
+
+        * SG
+        * NACL
+        * Route
+
+    * 10.0.0.0, 10.0.0.1, 10.0.0.2, 10.0.0.3, 10.0.0.255
+    * Lose 5 IP addresses when you provision an Subnet.
+    * When we create a Subnet, by default it is assocaiated to a single route table.
+    * Security Groups don't span VPC.
