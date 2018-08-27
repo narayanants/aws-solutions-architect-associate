@@ -1,0 +1,24 @@
+VPC Flow Logs:
+===============
+
+    * Capture IP traffic flowing to and from network interfaces in your VPC.
+    * Flow log data is stored using AWS CloudWatch Logs.
+    * After you have created a flow log, you can view and retrieve its data using AWS CloudWatch logs.
+
+
+Flow Logs can  be created in 3 levels:
+======================================
+    * VPC
+    * Subnet
+    * Network Interface Level.
+
+
+Exam Tips:
+=========
+
+    * Cannot enable Flowlogs for your VPCs that are peered with your VPCs unless the peer VPC is in your account.
+    * You cannot tag a flow log.
+    * After you have created a flowlog, you cannot change its configuration.
+    * Not all IP Traffic is monitored.
+    
+
