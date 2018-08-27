@@ -1,0 +1,4 @@
+ELB and Custom VPC:
+====================
+
+    * When you are creating a VPC, your ELB must be there in atleat 2 AZ and they must be public.
