@@ -22,7 +22,7 @@ NAT Gateway:
 ============
 
     * Preferred by enterprise.
-    * Scale automatically upto 100GBPS.
+    * Scale automatically upto 10GBPS.
     * No need to patch.
     * Not associcated with SG.
     * automatically assigned a public IP address.
