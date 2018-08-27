@@ -1,0 +1,52 @@
+Intro and overview of VPC:
+==========================
+
+    * Virtual Private Cloud
+    * Virtual Data Center in the Cloud
+    * VPN between VPC and corporate Cloud
+    * 10.0.0.0 
+
+    Connect using:
+
+        * Internet Gateway
+        * Virtual Private Gateway
+
+    What can you do with an VPC:
+    =============================
+
+        * Launch instances into a subnet of your choosing
+        * Assign custom IP Ranges in each subnet.
+        * Configure Route tables between the subnet.
+        * Create an internet Gateway and attach it to VPC.
+        * 1 internet Gateway per VPC.
+        * Much better security controls across AWS resources.
+        * Instance security group.
+        * Subnet ACL
+
+    Default VPC vs Custom VPC:
+    =============================
+
+        * Default VPC is user friendly,allowing you to immediately deploy instances.
+        * All subnets in the default VPC have a route out to the internet.
+        * Each EC2 instance will have both Public and private IP addresses.
+
+    VPC Peering:
+    =============
+
+        * Allows you to connect one VPC to another via a direct network route using private IP address.
+        * Instances behave as if they are in the same private network.
+        * Peering in a star configuration. 
+
+    Exam tips:
+    ==========
+
+    * Logical DC in AWS
+    * Consists of IGWs or Virtual Private Gateway,Route Tables, NACL, Subnets,Security Groups.
+    * 1 subnet = 1AZ
+    * Security Groups are stateful. NACL are stateless.
+    * No Transitive Peering
+
+    
+
+
+
