@@ -1,0 +1,4 @@
+Build your custom VPC Part 2:
+==============================
+
+    * Use Bastions to connect Public Server to a private server.
