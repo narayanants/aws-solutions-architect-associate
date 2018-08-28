@@ -1,0 +1,43 @@
+Kinesis 101:
+============
+
+* Streaming Data:
+=================
+
+    * Data is generated continuously by thousands of data sources.
+    * platform on AWS to send your Streaming data.
+
+
+
+    3 Kinesis services:
+    ===================
+
+    Kinesis Streams
+    Kinesis Firehose
+    Kinesis Analytics
+
+Kinesis Streams:
+================
+
+    * Data Producers => Kinesis Streams => 
+    * Stored for 24 hours (7 days)
+    * Stored as shards.
+    * EC2 instances will take data from shard.
+    * Send data to variety of AWS Services.
+
+    * 5 transcations per reads, 2MB per second.
+    * data capacity of your Streamsis a function of the number of shards that your specify for the stream.
+    * total capacity of the stream is the sum of the capacities of the shards.
+
+
+    Kinesis Firehose:
+    =================
+
+    Producers => Kinesis Firehose => S3 => Redshift
+                                  => ElasticSearch Cluster.
+
+    Kinesis Analytics:
+    ==================
+
+    * Producers => SQL Queries => S3/ElasticSearch Cluster/Redshift.
+    
