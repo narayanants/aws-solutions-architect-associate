@@ -1,0 +1,51 @@
+Summary:
+=========
+
+* SQS - message queue that can be used to store messages while waiting for a computer to process them.
+
+SQS Exam Tips:
+==============
+
+* Pull Based
+* messages are 256 KB in size.
+* messages kept in queue for 1 minute upto 14 days.
+* Default is 4 days.
+* Visibity Timeout - amount of time that the message is invisible in the SQS queue after a reader picks up that message.
+* messages are processed atleast once.
+* Standard or FIFO
+
+
+SWF vs SQS:
+===========
+
+ SQS - 14 day retention period.
+ SWF - 1 year
+
+
+ SQS - Message oriented API
+ SWF - Task oriented API
+
+ SQS - handle duplicated messages
+ SWF - no duplicated messages
+
+
+ SWF Actors:
+ ===========
+
+ Workflow Starters - App that start a Workflow
+ Deciders - control the flow of activity
+ Activity Workers - Carry out the activity tasks.
+
+ SNS Subscribers:
+ =================
+
+    HTTP
+    HTTPS
+    Email
+    Email-JSON
+    SQS 
+    Application
+    Lambda
+
+
+
