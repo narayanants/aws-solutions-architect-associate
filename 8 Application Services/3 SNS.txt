@@ -1,0 +1,16 @@
+SNS:
+====
+
+* Easy to setup,operate and send notifications in the cloud.
+* Provides developers with  a highly scalable, cost-effective capability to publish messages from an app and send them to subscribers or other apps.
+* Pub-sub messaging model.
+* Push mechanism.
+* Push Notifications for Apple,Google,FireOS and windows devices as well as android devices in china with Baidu cloud push.
+* SMS , email and SQS 
+* 
+
+Topics:
+======
+
+Group multiple recepients using topics.
+A topic is an access point for allowing recepients to dynamically subscribe for identical copies of the same notification.
