@@ -1,0 +1,19 @@
+SWF:
+====
+
+* web service that makes it easy to co-ordinate work across distributed application components.
+* Workers are programs that interact with AWS SWF,process retrived tasks and return the results.
+* Decider is a programs that controls the coordination of tasks.
+* SWF brokers interact between the worker and the decider.
+* Allows decider to get a consistent view into the progress of tasks and to initiate new tasks in an ongoing manner.
+* Ensure tasks are assigned only once and is never duplicated.
+* Can run independently , and scale quickly.
+* Parameters are specified in JSON.
+* Maximum workflow is 1 year and is in seconds.
+
+SQS vs SWF:
+=============
+
+
+Message oriented vs Task oriented
+Handle duplicated messages vs handle task only once and is not duplicated.
