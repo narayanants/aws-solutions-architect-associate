@@ -1,0 +1,26 @@
+API Gateway:
+===========
+
+* publish, maintain , monitor and secure API at any scale.
+* API caching, caches response from your endpoints to a TTL in seconds.
+
+
+Same origin policy:
+===================
+
+* web browser permits scripts contained in the first webpage to access data in the second webpage, only if both have the same origin.
+
+Cross Origin Resource Sharing: (CORS)
+==============================
+
+* CORS allows restricted resources on a webpage to be requested from another domain outside the domain from which the first resource was served.
+
+Exam Tips:
+=========
+
+* Remember what API Gateway is at a high level.
+* Has caching capabilities to increase performance.
+* API Gateway is low cost and scale automatically.
+* Throttle API Gateway to prevent attacks.
+* Log results to cloudWatch
+* AJAX with multiple domains with API Gateway,ensure that you have enabled cors on API Gateway.
