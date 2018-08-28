@@ -10,4 +10,3 @@ Exam Tips:
 
     * NAT instance is to provide internet access to private subnets.
     * Bastion is used to securely administer EC2 instances(using SSH or RDP) in private subnets. Jumpboxes in Austraila.
-    * 
