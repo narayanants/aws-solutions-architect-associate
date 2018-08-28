@@ -1,2 +1,61 @@
 SQS:
 =====
+
+    * Simple Queue Service
+    * Oldest AWS Service
+    * Gives access to a message Queue which can be used to Queue messages.
+    * Queue is a temporary repository,
+    * Queue acts as a buffer between the producer and the consumer.
+    * Resolves issues if the producer is producing work faster than the consumer can process it.
+    * Or if the producer or consumer are only intermittently connected to the network.
+
+
+    Two types of Queue:
+    =====================
+
+    * Standard Queue (default)
+    * FIFO Queue
+
+    Standard Queue:
+    ================
+
+    * Unlimited transactions per second.
+    * deliver messages atleast once.
+
+    FIFO Queue:
+    ===========
+
+    * Received/Delivered in order
+    * Once Processing.
+    * Duplicates are not introduced in the Queue.
+    
+    SQS Key facts:
+    ===============
+    * Pull based system.
+    * 256KB in size.
+    * Messages are kept in the queue from 1 minute to 14 days.
+    * Default retention period is 4 days.
+    * SQS guarentees that your Messages are processed atleast once.
+
+
+    Visibility Timeout:
+    ==================
+    * The Visibility Timeout is the amount of time that the message is invisible in the SQS Queueafter a reader picks up that message.
+    * Default Visibility Timeout is 30 seconds.
+    * Increase if your task takes > 30 seconds.
+    Maximum is 12 hours.
+
+
+    Exam Tips:
+    ==========
+
+    * distributed message queuing system.
+    * decouple the components of an app so that they are independent.
+    * Pull based
+    * Standard Queue and FIFO Queue
+    * FIFO Queue - order strictly preserved. No Duplicates.
+    Visibility Timeout - default 30 seconds.
+    Max hours - 12 hours
+
+    Short polling - returned immediately even if there are no messages in the queue.
+    Long polling - polls the queue periodically and returns a response when a message is in the queue or the timeout is reached. 
