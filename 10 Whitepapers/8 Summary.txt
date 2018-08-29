@@ -1,0 +1,51 @@
+Summary:
+---------
+
+* Security
+* Reliability
+* Performance Effiency
+* Cost Optimization
+* Operation Excellence
+
+
+Security:
+---------
+
+Data Protection
+Privilege Management
+Infra Management
+Detective Controls
+
+
+Reliability:
+------------
+
+Foundations
+Change Management
+Failure Management
+
+
+Performance Effiency:
+---------------------
+
+Compute
+Storage
+Databases
+Space-time tradeoff
+
+Cost Optimization:
+------------------
+
+Match supply and demand
+Cost effective resources
+Expenditure awareness
+Optimizing over time
+
+
+Operational Excellence:
+------------------------
+
+Preparations
+Operations
+Response
+
