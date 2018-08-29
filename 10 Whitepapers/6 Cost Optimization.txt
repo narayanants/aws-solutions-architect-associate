@@ -1,0 +1,80 @@
+Cost Optimization:
+------------------
+
+* Transparently attribute expenditure
+* Use Managed services to reduce the cost of ownership.
+* Trade capital expense for operating expense.
+* Benefit of economic of scale.
+* Stop spending money in DC operations.
+
+
+Definition
+------------
+
+Match supply and demand 
+Cost-effective resources
+Expenditure  awareness
+Optimizing over time
+
+
+Match - supply and demand:
+-------------------------
+
+* AutoScaling which scale with demand.
+* Lambda consumed only when a request comes in.
+* Services such as CloudWatch can also help you track as to what your demand is.
+
+
+Questions:
+------------
+
+How do you make sure your capacity matches but does not exceed it.
+How are you Optimizing your usage of AWS Services.
+
+Cost effective resources:
+--------------------------
+
+
+A well architected framework will use the most cost effective resources to reach the end business goal.
+
+
+Questions:
+----------
+
+- Have you selected the appropriate  resources types to meet your cost tagets
+- Have you selected the appropriate pricing model to meet the cost targets.
+
+
+Expenditure awareness:
+---------------------
+
+- Aware of each team is spending.
+
+Questions:
+-----------
+ACL and procedures
+Monitoring your spending on services
+How do you decommision resources that you no longer need.
+How do you consider data transfer charges when designing your architecture.
+
+
+Optimizing over Time:
+---------------------
+
+AWS moves fast.
+100's of new services.
+
+
+Key AWS Services:
+------------------
+
+Match supply and demand - AutoScaling
+Cost effective resources - EC2, Trusted Advisor
+Expenditure awareness - CloudWatch Alarms,SNS
+Optimizing over time - AWS BLog, Trusted Advisor
+
+
+
+
+
+
