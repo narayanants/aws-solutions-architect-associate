@@ -1,0 +1,75 @@
+Operational Excellence:
+-----------------------
+
+* Operational practices and procedures to manage production workloads.
+* 
+
+Design Principles:
+------------------
+
+Peform operations with code
+Align operations processes to business objectives.
+Make regular,small, incremental changes
+Test for responses for unexpected events.
+Learn from operations events and failures
+Keep operations procedures are current
+
+
+
+3 best practices:
+-----------------
+
+Preparation
+Operation
+Response
+
+
+
+Operation:
+----------
+
+Runbooks
+Playbooks
+
+CloudFormation
+AutoScaling
+Config
+
+
+Questions:
+-------------
+
+What best practices for cloud operations are you using?
+How are you doing config management of your workload.
+
+
+
+Operations:
+-----------
+
+* Operation must be standardized and manageable on a routine basis
+* Focus should be on automation, small frequent changes.
+* Regular QA testing.
+* CI/CD Pipelines
+
+
+
+Questions"
+----------
+
+- How do you respond to unplanned operational events.
+- How is escalation managed when responding to unplanned events.
+
+Key AWS SErvices:
+-----------------
+
+Preparation - Config, Service Catalog, AutoScaling and SQS 
+Operation - Code Commit,deploy,star, pipeline, SDK, CloudTrail
+Responses - CloudWatch
+
+Exam Tips:
+----------
+
+Preparation
+Operation
+Responses
