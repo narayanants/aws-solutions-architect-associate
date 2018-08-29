@@ -1,0 +1,32 @@
+Architecting for Best Practices:
+================================
+
+ Business Benefit of Cloud:
+ --------------------------
+
+* Almost 0 upfront infra investment
+* Just in time infrastructure
+* More efficient resource utilization.
+* Usage based costing
+* Reduced time to market.
+
+Technical benefits of cloud:
+============================
+
+* automation - scriptable infrastructure
+* Autoscaling
+* Proactive scaling
+* More efficient dev cycle.
+* DR and Business Continuity.
+* Overflow the traffic to the cloud.
+
+
+Always design for failure.
+Decouple your compnenets.
+Cloud brings elasticity to ur apps.
+
+Proactive cyclic scaling: Periodic Scaling that occurs at a fixed interval.
+Proactive Event based scaling: Big surge in traffic.
+Autoscaling based on demand
+Secure your application
+
