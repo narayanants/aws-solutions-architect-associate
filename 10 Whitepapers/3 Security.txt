@@ -1,0 +1,104 @@
+Security:
+==========
+
+ Design priciples:
+ ------------------
+
+- Apply Security in all layers.
+- Enable Traceability
+- Automate responses to security events
+- Focus on securing your system.
+- 
+
+Shared Responsibility Model:
+=============================
+
+- Customer - Responsible for the security in the cloud
+- AWS - Responsible for the security of the cloud
+
+
+Definition:
+------------
+
+    * Data Protection
+    * Infra Protection
+    * Privilege management
+    * Detective controls
+
+    Best Practices - Data Protection:
+    ---------------------------------
+
+    * Role based access
+    * Encrypt everything whether at REST or in transit.
+
+
+Data Protection:
+----------------
+    * Customers control their data.
+    * AWS helps you to encrypt data.
+    * Detailed logging is available
+    * Versioning
+
+    Questions in Data Protection:
+    -----------------------------
+
+    - How are you encrypting and protecting data at rest and transit (SSL)
+
+Privilege Management:
+---------------------
+
+* AUthorized access to resources
+* ACL
+* RBAC
+* Password Management (Password Rotation Policies)
+
+Question:
+--------
+
+* Protecting access to ur aws resources and root account
+* Limiting automated access
+* How are you managing keys and credentials
+
+
+Infrastructure Protection:
+--------------------------
+
+* CCTV
+* Security Guards
+
+Questions:
+==========
+
+* Network and host level boundary protection
+* AWS Service level protection
+* Protecting integrity of OS on EC2 instances
+* 
+
+Detective control:
+==================
+* AWS CloudTrail
+* AWS CloudWatch
+* AWS Config
+* S3
+* Glacier
+
+Questions:
+==========
+
+Capturing and analyzing AWS logs - CloudTrail
+
+Key AWS Services:
+-------------------
+
+* ELB,EBS,S3,RDS
+* IAM,MFA
+* VPC
+* CloudTrail,Config,CloudWatch.
+
+Exam Tips:
+==========
+
+* Data Protection
+* Infrastructure Protection
+* Privilege Management
+* Detective Controls
