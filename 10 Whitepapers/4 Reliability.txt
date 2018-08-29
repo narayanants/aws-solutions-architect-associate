@@ -1,0 +1,73 @@
+Reliability:
+------------
+
+* Reliability of the system
+* Infrastructure outage
+* Dynamically acquire Compute demand
+
+
+Design principles:
+------------------
+
+* Test recovery procedures
+* Automatically recover from failure.
+* Scale horizontally.
+
+
+Reliability:
+------------
+
+    - Foundations
+    - Change Management
+    - Failure Management
+    
+
+Foundations Questions:
+----------------------
+
+* How are you managing your AWS Service limits
+* How are you planning your network topology on AWS
+* Do you have an escalation path to deal with techincal issues.
+
+Change Management:
+--------------------
+
+* CloudWatch
+* Auto Scaling
+
+Questions:
+-----------
+
+How your systems adapt to changes
+How are you monitoring your AWS Resources
+How are you executing change management.
+
+
+Failure Management;
+-------------------
+
+- Design for Failure
+- 
+
+Questions:
+-----------
+
+How are you backing up your data
+How Does your system withstand component failures
+How are your Planning for recovery
+
+
+Foundations: IAM,VPC
+Change Management - CloudTrail
+Failure Management - CloudFormation
+
+
+Exam Tips:
+-----------
+
+Foundations
+Change Management
+Failure Management
+
+
+
