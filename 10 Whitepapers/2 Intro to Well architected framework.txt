@@ -1,0 +1,32 @@
+Intro to Well architected framework:
+====================================
+
+* Security
+* Reliability
+* Performance Efficiency
+* Cost Optimization
+* Operational Excellence
+
+
+
+Structure of each pillar:
+-------------------------
+
+* Design principles
+* Definition
+* Best Practices
+* Key AWS Services
+* Resources
+
+
+
+General Design principles:
+============================
+
+* Stop guessing your capacity needs.
+* Test systems at production scale.
+* Automate to make architectural experimentation easier.
+* Allow for evolutionary architecture
+* Data driven architecture.
+* Improve through game days. (Black friday sale)
+
