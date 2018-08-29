@@ -1,4 +1,5 @@
 CloudFormation:
 ===============
 
-* 
+* Tear down the setup
+* CloudFormation saves an enormous amounts of time.
