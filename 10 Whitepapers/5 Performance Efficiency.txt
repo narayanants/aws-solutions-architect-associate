@@ -1,0 +1,92 @@
+Performance Efficiency:
+======================
+
+* How to use computing resources efficiently.
+* Maintain your efficiency as demand changes.
+
+
+Design Principles:
+------------------
+
+* Democratize advanced technologies
+* Go global in minutes
+* Use server-less architecuture
+* Experiment more often
+* 
+
+Definition:
+-----------
+
+* Compute
+* Storage
+* Database
+* Space time tradeoff
+
+
+Questions:
+-----------
+
+How to select the correct instance type?
+How to ensure that you have the most appropriate instance type as the new instance type and features are introduced.
+How do your monitor your instances post launch.
+
+
+
+Storage:
+=========
+
+Access Method
+Patterns of Access
+Throughput Required
+Frequency of Access
+Frequency of update
+Availability constraints
+Durability constraints
+
+
+Storage is virtualizated
+
+
+Questions:
+----------
+
+how do you select the appropriate storage solution for your system
+How do you monitor your storage solution to ensure it is performing as expected.
+How to ensure that the capacity and Throughput of your storage solutions matches demand.
+
+
+Database Questions:
+--------------------
+
+* How do you select the appropriate database for your system.
+* Most appropriate database solution as new database solution
+* How do you monitor your database for Performance expected.
+
+
+Space-time tradeoff:
+--------------------
+
+ proximity and caching solutions for your system to perform well.
+
+
+Key Services:
+-------------
+
+Compute - Auto Scaling
+
+Storage - EBS, S3 , Glacier
+
+Databases - RDS, DynamoDB, Redshift
+
+Space-time tradeoff - CloudFront, ElasticCache,Direct Connect, RDS Read Replicas etc
+
+
+Exam Tips:
+-----------
+
+Compute 
+Storage
+Databases
+Space - time tradeoff
+
+
