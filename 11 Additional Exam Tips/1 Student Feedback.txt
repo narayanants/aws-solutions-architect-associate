@@ -1,4 +1,49 @@
 Student Feedback:
 ------------------
 
-* 
+* Kinesis
+* Way to consume Big Data
+* Process Big Data
+    - EMR
+    - Redshift
+
+
+EC2 - EBS vs Instance Store
+----------------------------
+
+EBS backed instances are persistent.
+Instance Store backed instances are not persistent (ephemeral)
+EBS volumes can be attached and detached to other EC2 instances.
+Instance Store cannot be attached and detached
+
+EBS can be volumes can be stopped and data will persist.
+Instance store volumes cannot be stopped. data is wiped.
+
+
+OpsWorks:
+----------
+Orchestration service that uses chef.
+Chef consists of recipes to maintain a consistent state.
+cookbooks,chef,recipes
+
+
+Elastic Transcoder:
+----------------------
+
+Media Transcoding in the cloud.
+
+
+SWF Actors:
+------------
+
+Workflow Starters
+Deciders
+Activity Workers
+
+
+EC2 Get Public IP Address:
+===========================
+
+curl http://169.254.169.254/latest/meta-data
+wget http://169.254.169.254/latest/meta-data
+
