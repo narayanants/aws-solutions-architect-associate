@@ -1,0 +1,33 @@
+Docker:
+=======
+
+What is Docker:
+---------------
+
+* Docker Client
+* DOcker Daemon
+* Docker Image
+* Docker Container
+* Docker Registry
+* Docker Hub
+
+ECS:
+----
+
+* Containers are created from a read only template called image.
+
+
+Exam Tips:
+----------
+
+* ECS - Amazon's managed EC2 container service. manage docker containers on a cluster of EC2 Instances.
+* Containers are just OS level virtualization=
+* Containers are created from a read only template called image
+* Image is an read only template with instructions to create a Docker Container.
+* Images are stored in Docker Hub / ECR
+* ECR is just Amazon's managed Docker Registry Service.
+* A Task Definition is required to run Docker containers in ECS.
+* Task Definition are text files with JSON format that  describe one or more containers that form your apps.
+* Task Definition   = CLoudFormation template for docker.
+* Think of services like AutoScaling Groups for ECS.
+* ECS os a logical grouping of container instances that you can place tasks on.
