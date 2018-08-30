@@ -1,0 +1,16 @@
+Security Token Service:
+------------------------
+
+* Federation - Combining or joining list of users in one domain (IAM) to another domain (Facebook,Google,LinkedIn)
+* Identity Broker - Identity from A to B
+* Identity Store - Active Directory,Facebook
+* Identities - user of a service like Facebook.
+
+
+In The Exam:
+-----------
+
+1) Develop an Identity Broker to communicate LDAP and AWS STS
+2) Identity Broker always authenticates LDAP First, THen AWS STS
+3) Application then gets temporary access to AWS Resources.
+
