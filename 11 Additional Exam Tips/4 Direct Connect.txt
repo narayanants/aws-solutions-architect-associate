@@ -1,0 +1,21 @@
+Direct Connect:
+================
+
+* establish dedicated network connection from on premise to AWS
+* Private Connectivity
+* 
+
+Benefits:
+==========
+
+Reduce costs when using large volumes of traffic
+Increase Reliability
+Increase bandwidth
+
+
+Difference between VPN and Direct Connect:
+--------------------------------------------
+
+* Direct Connect does not involve internet.
+* private internet connection
+s
