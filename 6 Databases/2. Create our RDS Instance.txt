@@ -1,4 +1,4 @@
 Create our RDS Instance:
 ========================
 
-* Open port 3306 for MySQL
+* Open port 3306 for MySQL for the EC2 instance with the web server.
