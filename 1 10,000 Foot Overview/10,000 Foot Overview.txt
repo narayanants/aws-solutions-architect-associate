@@ -39,9 +39,7 @@ AWS Global Infrastructure:
 ==========================
 
 	Region - Geographical Area
-
 	AZ - 2 or more DC
-
 	Edge Location - CDN endpoint for cloudfront for caching content
 
 
