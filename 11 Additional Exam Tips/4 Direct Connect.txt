@@ -18,4 +18,3 @@ Difference between VPN and Direct Connect:
 
 * Direct Connect does not involve internet.
 * private internet connection
-s
