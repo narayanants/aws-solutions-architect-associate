@@ -8,3 +8,4 @@ Tips:
 	* Use in conjunction with versioning
 	* Current and Previous versions
 	* Transition to S3 IA - Glacier
+	* Lifecycle Rules to permanently delete Objects
