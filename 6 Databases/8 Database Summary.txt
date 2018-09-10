@@ -18,7 +18,7 @@ Aurora Scaling:
 
     * 2 copies of your data in each availability zone with a minimum of 3 availability zones.
     * 6 copies of your data.
-    * Designed to handle loss of upto to copies of data without affecting database writes.
+    * Designed to handle loss of upto to 3 copies of data without affecting database writes.
     * 3 copies without affecting read availability.
 
 
