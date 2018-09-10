@@ -22,8 +22,7 @@ Cloudfront:
 	* Edge locations are not read only, you can write to them
 	* Objects are cached for TTL
 	* You can clear cached objects, but you are charged for it.
-	* Objects expire after TTL.
-	* 
+	* Objects expire after TTL. 
 
 
 
