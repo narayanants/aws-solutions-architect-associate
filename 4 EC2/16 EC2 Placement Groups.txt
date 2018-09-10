@@ -13,10 +13,10 @@ EC2 Placement Groups:
 	* Cassandra, Hadoop.
 
 
-	* Can't span multiple AZ
+	* Clustered Plcement Group can't span multiple AZ
 	* Name of the Placement group must be unique with AWS Account.
 	* Only certain type of instances can be launched in placement group.
 	* Instance of the same size and family.
-	* Can merge placement group
+	* Can't merge placement group
 	* Can't move existing instances into placement group
 	
