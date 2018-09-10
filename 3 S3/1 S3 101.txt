@@ -51,6 +51,11 @@ S3 is a simple K:V pair
 	* Reduced Redundancy Storage - Same Availability, 99.99 % durability.
 	* Glacier - very cheap. Data Archival. 3-5hrs to restore.
 
+	S3 - 99.99% Availability 99.9999999999% durability
+	S3 -IA - 99.9% Availability 99.99999999999% durability
+	S3 - One Zone IA - 99.5% availability 99.99999999999% durability
+	Glacier - No Availability, 99.99999999999% durability
+
 Glacier:
 =========
 
