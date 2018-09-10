@@ -34,7 +34,7 @@ Databases 101:
 
     Online Analytics Processing
 
-    Data Warehousing Databases use different type of architecture both from a datababase perspective and infrastructure layer.
+    Data Warehousing Databases use different type of architecture both from a database perspective and infrastructure layer.
 
     ElasticCache:
     ==============
