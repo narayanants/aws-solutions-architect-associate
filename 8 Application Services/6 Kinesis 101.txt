@@ -1,13 +1,12 @@
 Kinesis 101:
 ============
 
+
 * Streaming Data:
 =================
 
     * Data is generated continuously by thousands of data sources.
     * platform on AWS to send your Streaming data.
-
-
 
     3 Kinesis services:
     ===================

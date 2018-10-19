@@ -7,10 +7,54 @@ SNS:
 * Push mechanism.
 * Push Notifications for Apple,Google,FireOS and windows devices as well as android devices in china with Baidu cloud push.
 * SMS , email and SQS 
-* 
+
 
 Topics:
 ======
 
 Group multiple recepients using topics.
 A topic is an access point for allowing recepients to dynamically subscribe for identical copies of the same notification.
+* All messages published to SNS are stored across Multi -AZ
+
+Benefits:
+==========
+
+* Instantaneous push based delivery
+* Simple APIs and easy integration with apps
+* Flexible message delivery over multiple transport protocols
+* No upfront cost
+* Web based AWS Management Console
+
+
+
+SNS vs SQS:
+===========
+
+
+ Both are messaging services in AWS
+ SNS - Push
+ SQS - Pull
+
+
+ Pricing:
+ ========
+
+ * $0.50 / 1 million SNS requests
+ * $0.75 per notification over 100 SMS
+ * $2.00 over emails
+ * Pub-sub messaging model
+
+ Exam Tips:
+ ==========
+
+ * Scalable and highly available push based notification from the cloud.
+ * Variety of message formats supported 
+    * SMS
+    * email
+    * SQS
+    * HTTP endpoint
+* Pub-sub model whereby users subscribe to models
+* Push mechanism
+
+
+
