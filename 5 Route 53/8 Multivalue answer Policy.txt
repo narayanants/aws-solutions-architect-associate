@@ -1,0 +1,4 @@
+Multivalue Answer Policy:
+==========================
+
+- Resolves in the Same IP Range
