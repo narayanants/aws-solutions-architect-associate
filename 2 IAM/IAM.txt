@@ -12,7 +12,6 @@ Manage Users and Their level of access to AWS console.
 	* Password Rotation Policy.
 	* PCI DSS Compliance
 
-
 Terms:
 =======
 
@@ -33,7 +32,6 @@ IAM:
 	Only get those credentials once.
 	MFA on root account
 	Create and customize own Password Rotation Policy.
-
 
 
 
