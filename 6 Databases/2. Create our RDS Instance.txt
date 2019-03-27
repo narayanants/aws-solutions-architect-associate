@@ -2,3 +2,13 @@ Create our RDS Instance:
 ========================
 
 * Open port 3306 for MySQL for the EC2 instance with the web server.
+
+
+Exam Tips:
+===========
+
+* RDS Runs on Virtual Machines
+* You can log into those OS however.
+* RDS is not Serverless
+* Aurora Serverless is Serverless
+
