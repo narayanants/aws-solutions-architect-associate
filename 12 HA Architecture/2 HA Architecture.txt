@@ -1,0 +1,9 @@
+HA Architecture:
+================
+
+* Always Design for Failure
+* Use Multiple AZ's and Multiple Regions where ever you can.
+* Difference between Multi-AZ and Read Replicas
+* Know the difference between Scaling OUT and Scaling UP
+* Read the questions carefully and always consider the cost element
+* Know the different Storage classes.
