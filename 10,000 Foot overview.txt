@@ -11,9 +11,6 @@
 2017 - AI and VR services.
 
 
-16 Regions and 44 AZ
-
-
 Services:
 =========
 
