@@ -21,6 +21,13 @@ Databases 101:
     DynamoDB
 
 
+    RDS has 2 new features:
+    =======================
+
+        - Multi-AZ - For Disaster Recovery
+        - Read Replicas - For Performance (5 COPIES)
+
+
     Data Warehousing:
     =================
 
