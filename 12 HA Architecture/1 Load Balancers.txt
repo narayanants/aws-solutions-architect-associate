@@ -1,0 +1,14 @@
+Load Balancers:
+===============
+
+* Application Load Balancer - HTTP and HTTPS (Layer 7)
+* Network Load Balancer - TCP (Extreme Performance)
+* Classic Load Balancer - HTTP/HTTPS applications
+
+    504 Error - Gateway has timed out.
+
+    IPv4 address of the end user - X-Forwarded-For
+
+    * Instances monitored by ELB are either InService or OutOfService
+    * Health checks check the instance health by talking to it.
+    * Load Balancers have their own DNS name. You are never given an IP Address.
