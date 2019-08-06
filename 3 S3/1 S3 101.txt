@@ -10,7 +10,7 @@ S3 101:
 * Designed to withstand failure
 * Really Cheap
 
-* File size 0 -5TB
+* File size 0 - 5 TB
 * Unlimited Storage
 * File are stored in Buckets ( Just a Folder)
 * S3 is a universal namespace
