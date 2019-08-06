@@ -9,11 +9,8 @@ Cross Region Replication:
  ==========
 
  	aws configure
-
  	aws s3 ls
-
  	aws s3 cp --recursive s3://doodlebluebucket1 s3://doodlebluebucket22
-
  	Once we delete the delete marker, its not replicated across.
 
 
