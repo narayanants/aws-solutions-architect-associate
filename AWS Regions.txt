@@ -1,0 +1,55 @@
+AWS Regions:
+============
+
+North America:
+==============
+ 	
+	N. Virginia  (us-east-1)
+	Ohio (us-east-2)
+	N.California (us-west-1)
+	Oregon (us-west-2)
+	
+South America:
+==============
+ 
+ Canada Central (ca-central-1)
+	
+EMEA:
+======
+	
+	Frankfurt (eu-central-1)
+	Ireland (eu-west-1)
+	London (eu-west-2)
+	Paris (eu-west-3)
+	Stockholm (eu-north-1)
+	Baharin (me-south-1)
+	
+	
+	
+APAC:
+=====
+	
+	Honk Kong  (ap-east-1)
+	Mumbai (ap-south-1)
+	Tokyo (ap-northeast-1)
+	Seoul (ap-northeast-2)
+	Osaka-Local (ap-northeast-3)
+	Singapore (ap-southeast-1)
+	Sydney (ap-southeast-2)
+	China (cn-north-1)
+	Ningxia (cn-northwest-1)
+	
+AWS Gov Cloud:
+===============
+
+	US-EAST (us-gov-east-1)
+	US-WEST (us-gov-west-1)
+	
+	
+	
+
+	
+	
+	
+ 
+	
