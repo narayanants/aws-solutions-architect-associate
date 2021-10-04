@@ -1,4 +1,4 @@
 VPC Endpoints:
 ===============
 
-    * 
+    * A VPC endpoint enables connections between a virtual private cloud (VPC) and supported services, without requiring that you use an internet gateway, NAT device, VPN connection, or AWS Direct Connect connection.
