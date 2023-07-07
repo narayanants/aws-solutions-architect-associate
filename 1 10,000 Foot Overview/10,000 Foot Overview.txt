@@ -16,7 +16,7 @@ AWS Platform:
 	IoT
 	AR/VR
 	Media Services
-	Machine Learning
+	Machine Learnings
 	Customer Engagement
 	Business Productivity
 	Desktop & App Streaming	
